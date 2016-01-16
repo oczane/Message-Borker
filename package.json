@@ -1,0 +1,27 @@
+{
+  "name": "emailworker",
+  "version": "1.0.0",
+  "description": "email worker",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "worker",
+    "queue",
+    "to",
+    "send",
+    "emails",
+    "to",
+    "online",
+    "bookers"
+  ],
+  "author": "Rakesh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "kue": "^0.10.4",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1"
+  }
+}
